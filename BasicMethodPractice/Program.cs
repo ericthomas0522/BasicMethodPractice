@@ -16,6 +16,7 @@ namespace BasicMethodPractice
             Console.ReadLine();
         }
 
+        //Generates an array of any length
          static int[] GenerateNumbers(int arrayLength)
          {
          int[] arrayToReturn = new int[arrayLength];
@@ -29,7 +30,7 @@ namespace BasicMethodPractice
 
         }
 
-
+        //Prints the contents of the array
         static void PrintNumbers(int[] arrayToPrint)
         {
             for (int index = 0; index < arrayToPrint.Length; index++)
